@@ -1,0 +1,99 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  text-decoration: none;
+  color: black;
+  
+}
+.menu-bg{
+  display: flex;
+  background: black;
+  max-width: 85.3em;
+  height:5.12em ;
+
+}
+
+.menu{
+  width:85.3em ;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px;
+  /* background: greenyellow; */
+  
+}
+
+.logo-adme{
+  display: flex;
+  align-items: center;
+  /* background: peru */
+
+}
+
+.marca{  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: white;
+  width: 4em;
+  height: 3.4em;
+  line-height: 98.8%;
+  border-radius: 0.5em;
+
+}
+
+.marca a{
+  color: black;
+  font-family: Bree Serif;
+  font-size: 2.61em;
+}
+
+.logo{
+  display: flex;
+  margin-left: 10px
+  
+}
+.logo a{
+  color: white;
+  font-family: Bree Serif;
+  font-size: 2.61em;
+  
+}
+
+.nav{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content:space-around;
+  width: auto;
+  margin-right: 150px;
+  /* background: teal; */
+  
+}
+
+.nav a {
+  padding: 40px;
+  font-size: 1.5em;
+  color: white;
+  font-family: Bree Serif;
+}
+
+.banner-bg{
+  display: flex;
+  background-image: url("banner-crianças.png");
+}
+
+.banner{
+  display: flex;
+  max-width:85.3em ;
+  height:22.5em ;
+  
+  /*background: linear-gradient(310.92deg, #2BA1CF 19.54%, rgba(41, 119, 150, 0) 61.72%), linear-gradient(138.43deg, #839CDB 34.02%, rgba(255, 255, 255, 0) 119.85%), #0396A6;
+  mix-blend-mode: hard-light;*/
+}
+.banner h1{
+  color:red;
+  font-family: Bree Serif;
+}
